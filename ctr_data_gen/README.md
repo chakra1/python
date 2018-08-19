@@ -29,11 +29,14 @@ The project consists of three components
      * *generate_random_datetime(x)* - Returns a random datetime generated in *format* representation between *start* and *end* date. *x* is the randomness of the seed for random generator   
      * *generate_N_datetimes(n)*     - Returns a list of *n* datetimes using the above *generate_random_datetime* method (this method is not used in CTRDataGenerator.py)
     
+***schema*** - Containing **CTR_Schema.json**. This is the default JSON schema based on which the data will be generated, if no schema file is specified by the user at runtime. Please see the section *Schema of the data* for more details.
 
-
-
-
+***data***   - This is the default directory under which the generated JSON data will be stored, if the user does not provide a custom output data directory. The default output filename is *gen_data.json*. Please see the *gen_data.json* file provided under the *data* directory to understand better the generated JSON data.
 
 # Schema of the data
-The schema of the data is provided 
+The default schema of the data is provided as below.  
+
+
+
+
 
