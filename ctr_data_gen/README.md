@@ -24,10 +24,10 @@ The project consists of three components
 
     **NOTE:** *Please note that an user who intend to incorporate new or custom formats for datetimes, need to add that new format in this DatetimeFormat class to be considered as a valid format*  
 
-    There are two methods in the *DatetimeClass*
+    There are two methods in the *DatetimeClass(start, end, format)*
 
-     * generate_random_datetime(x) - Returns a random datetime generated in *format* representation between *start* and *end* date. *x* is the randomness of the seed for random generator   
-     * generate_N_datetimes(n)     - Returns a list of *n* datetimes using the above *generate_random_datetime* method (this method is not used in CTRDataGenerator.py)
+     * *generate_random_datetime(x)* - Returns a random datetime generated in *format* representation between *start* and *end* date. *x* is the randomness of the seed for random generator   
+     * *generate_N_datetimes(n)*     - Returns a list of *n* datetimes using the above *generate_random_datetime* method (this method is not used in CTRDataGenerator.py)
     
 
 
