@@ -17,16 +17,19 @@ The project consists of three components
     * &lt;timeformat&gt; - Format in which the click time is to be generated  
     * &lt;outputfile&gt; - Name with location of the JSON data file to be generated. In case of no user input, the default data file will be under `data\gen_data.json`   
 
-*  *DatetimeClass.py* - This is the Python class which is initialized in constructor using start date, end date and the format in which the datetimes will be generated. 
+*  *DatetimeClass.py* - This is the Python class which is initialized using constructor parameters -  
+    * start  - start date,
+    * end    - end date, 
+    * format - format of the datetime generated, validated against DatetimeFormat  
 
 The format in the constructor parameter is validated against an internal DatetimeFormat class which contains a list of supported format enum values. 
 
-***NOTE: Please note that an user who intend to incorporate new format for datetimes, need to add that new format in this list of enum values***
+***NOTE:*** Please note that an user who intend to incorporate new format for datetimes, need to add that new format in this list of enum values  
 
 There are two methods in the *DatetimeClass*
 
-    * generate_random_datetime(x) - Name with location of the JSON schema file. It can be any location of user-input schema file with the format as specified by jsonschema. In case of no user input, the default schema will be loaded from `schema\CTR_Schema.json`  
-    * generate_N_datetimes(n)       - Size of the dataset to be generated  
+    * DatetimeClass.generate_random_datetime(x) - Returns a random datetime generated between start  
+    * DatetimeClass.generate_N_datetimes(n)       - Size of the dataset to be generated  
     
 
 
