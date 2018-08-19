@@ -10,12 +10,12 @@ The project consists of three components
 
 *  `CTRDataGenerator.py` - Takes below optional parameters  
 
-                <schemafile> - Name with location of the JSON schema file. It can be any location of user-input schema file with the                                      format as specified by jsonschema. In case of no user input, the default schema will be loaded from   `schema\CTR_Schema.json`  
-                <size>       - Size of the dataset to be generated  
-                <startdate>  - Start date of the date range from which click times are to be generated  
-                <enddate>    - End date of the date range from which click times are to be generated  
-                <timeformat> - Format in which the click time is to be generated  
-                <outputfile> - Name with location    
+<schemafile> - Name with location of the JSON schema file. It can be any location of user-input schema file with the format as specified by jsonschema. In case of no user input, the default schema will be loaded from `schema\CTR_Schema.json`  
+<size>       - Size of the dataset to be generated  
+<startdate>  - Start date of the date range from which click times are to be generated  
+<enddate>    - End date of the date range from which click times are to be generated  
+<timeformat> - Format in which the click time is to be generated  
+<outputfile> - Name with location    
 
 
 # Schema of the data
