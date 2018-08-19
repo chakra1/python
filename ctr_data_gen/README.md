@@ -20,16 +20,14 @@ The project consists of three components
 *  *DatetimeClass.py* - This is the Python class which is initialized using constructor parameters -  
     * start  - start date,
     * end    - end date, 
-    * format - format of the datetime generated, validated against DatetimeFormat  
+    * format - format of the datetime generated, validated against DatetimeFormat inner class containing a list of *supported* format values  
 
-The format in the constructor parameter is validated against an internal DatetimeFormat class which contains a list of supported format enum values. 
-
-***NOTE:*** Please note that an user who intend to incorporate new format for datetimes, need to add that new format in this list of enum values  
+***NOTE:*** Please note that an user who intend to incorporate new or custom formats for datetimes, need to add that new format in this DatetimeFormat class to be considered as a valid format  
 
 There are two methods in the *DatetimeClass*
 
-    * DatetimeClass.generate_random_datetime(x) - Returns a random datetime generated between start  
-    * DatetimeClass.generate_N_datetimes(n)       - Size of the dataset to be generated  
+   * generate_random_datetime(x) - Returns a random datetime generated in *format* representation between *start* and *end* date. *x* is the randomness of the seed for random generator   
+   * generate_N_datetimes(n)     - Returns a list of *n* datetimes using the above *generate_random_datetime* method (this method is not used in CTRDataGenerator.py)
     
 
 
