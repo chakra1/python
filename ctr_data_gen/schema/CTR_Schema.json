@@ -1,0 +1,56 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema",
+    "title": "CTR Schema",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "ad identifier"
+        },
+        "click_percent": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+        },
+        "click_time": {
+            "description": "Timestamp in %m/%d/%Y %I:%M %p format",
+            "type": "string"
+        },
+        "banner_pos": {
+            "type": "array",
+            "properties": {
+            	"x": {"type":"integer"},
+            	"y": {"type":"integer"}
+            },
+            "required":["x", "y"]
+        },
+        "site": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "domain": {"type": "string"},
+                "category": {"type": "string"}
+                },
+            "required":["id", "domain"]
+            },
+        "app": {
+        	"type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "domain": {"type": "string"},
+                "category": {"type": "string"}
+                },
+            "required":["id", "domain"]
+        },
+        "device": {
+        	"type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "model": {"type": "string"},
+                "device_type": {"enum":["mobile","tablet","laptop"]}
+                },
+            "required":["id", "device_type"]
+        }
+    },
+    "required": ["id", "click_percent", "click_time"]
+}

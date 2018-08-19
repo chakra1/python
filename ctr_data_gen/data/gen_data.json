@@ -1,0 +1,54 @@
+{
+    "ctrs": [
+        {
+            "click_percent": 77,
+            "click_time": "09/22/2008 10:14 AM",
+            "id": "8eeebf7ace6f4f3cbdc1d52ac594bb4b"
+        },
+        {
+            "click_percent": 71,
+            "click_time": "06/25/2008 05:58 AM",
+            "id": "e2d5636abe0248288d95a57606f85af2"
+        },
+        {
+            "click_percent": 48,
+            "click_time": "06/06/2008 10:50 AM",
+            "id": "fe18271798db4b99b8f508fafecaf4d5"
+        },
+        {
+            "click_percent": 98,
+            "click_time": "05/26/2008 11:02 PM",
+            "id": "d6bf98b365e6476e96f0977683283ca0"
+        },
+        {
+            "click_percent": 72,
+            "click_time": "02/22/2008 05:51 PM",
+            "id": "70fa393da8e94b6a8a35f28a6ad53bc1"
+        },
+        {
+            "click_percent": 54,
+            "click_time": "03/17/2008 02:43 AM",
+            "id": "2296f98bdc3d415084aa17be8edf0d99"
+        },
+        {
+            "click_percent": 8,
+            "click_time": "05/17/2008 04:56 AM",
+            "id": "9bfecbe3c15947fb8da90b3ece75209e"
+        },
+        {
+            "click_percent": 25,
+            "click_time": "02/05/2008 03:31 PM",
+            "id": "dbcf2e99f44140f2aec9f783b95b22b6"
+        },
+        {
+            "click_percent": 5,
+            "click_time": "09/20/2008 12:46 PM",
+            "id": "c9527f6c17bd41059f84a40f29296573"
+        },
+        {
+            "click_percent": 58,
+            "click_time": "02/27/2008 03:14 AM",
+            "id": "c5097134621f4787828097fb7b1507bf"
+        }
+    ]
+}
